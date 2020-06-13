@@ -1,0 +1,16 @@
+训练数据
+
+
+重点在
+测试数据
+filter_copy.py
+去重、去垃圾信息、存储在data文件夹中
+
+downsample.py
+降采样 并且直接从json格式到preprocess变成dataloader用于分类无关数据 存储在preprocessed_data文件夹中
+
+main.py 对数据进行情感分类 得到模型存储在saved_model/1/中
+并会接着对test.json数据进行预测 结果存在result文件夹中
+
+# 这一步可有可无
+compose_new.py 得到去除无关数据之后的数据

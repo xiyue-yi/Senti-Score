@@ -1,0 +1,22 @@
+主要用于数据情感分类
+
+源数据来源于 
+tag_weibo/preprocess_test的预测结果
+最后compose_new.py之后得到的新数据new_data文件夹
+
+preprocess_train
+这里面的数据没有经过预处理，预处理的过程在里面实现
+直接使用pick_weibo程序得到的tagged.txt文件
+
+用于训练情感分类模型 目前是bert的序列分类模型
+
+	'1' 数据：预处理后的积极情感微博 273条
+	'0' 数据：预处理+降采样之后的消极情感微博 273条
+
+preprocess_test
+这里的数据已经经过了tag_weibo的预处理
+
+使用preprocess_train得到的模型对经过预处理的所有数据进行预测，得到相应的情感极性
+
+
+

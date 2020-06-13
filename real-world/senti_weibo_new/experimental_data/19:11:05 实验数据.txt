@@ -1,0 +1,44 @@
+19/11/05 实验数据
+
+实验目的：用不同精度分类器测试 “数据调整”
+数据集：权力的游戏
+分类器：senti_weibo
+epoch选用 1 /3 /8 /12
+INFO:root:Beginning training...
+INFO:root:Epoch: 1 | Loss: 0.03913 | Precision: 0.93333 | Recall: 0.56000 | F1: 0.70000 | Time: 0.118
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-1.
+INFO:root:Epoch: 2 | Loss: 0.02893 | Precision: 0.92308 | Recall: 0.48000 | F1: 0.63158 | Time: 0.116
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-2.
+INFO:root:Epoch: 3 | Loss: 0.02919 | Precision: 0.77778 | Recall: 0.70000 | F1: 0.73684 | Time: 0.119
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-3.
+INFO:root:Epoch: 4 | Loss: 0.01826 | Precision: 0.75862 | Recall: 0.88000 | F1: 0.81481 | Time: 0.120
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-4.
+INFO:root:Epoch: 5 | Loss: 0.01471 | Precision: 0.84314 | Recall: 0.86000 | F1: 0.85149 | Time: 0.122
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-5.
+INFO:root:Epoch: 6 | Loss: 0.01357 | Precision: 0.81132 | Recall: 0.86000 | F1: 0.83495 | Time: 0.119
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-6.
+INFO:root:Epoch: 7 | Loss: 0.01350 | Precision: 0.82692 | Recall: 0.86000 | F1: 0.84314 | Time: 0.121
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-7.
+INFO:root:Epoch: 8 | Loss: 0.00966 | Precision: 0.78571 | Recall: 0.88000 | F1: 0.83019 | Time: 0.119
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-8.
+INFO:root:Epoch: 9 | Loss: 0.00878 | Precision: 0.83019 | Recall: 0.88000 | F1: 0.85437 | Time: 0.118
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-9.
+INFO:root:Epoch: 10 | Loss: 0.00839 | Precision: 0.82692 | Recall: 0.86000 | F1: 0.84314 | Time: 0.114
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-10.
+INFO:root:Epoch: 11 | Loss: 0.00734 | Precision: 0.84314 | Recall: 0.86000 | F1: 0.85149 | Time: 0.116
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-11.
+INFO:root:Epoch: 12 | Loss: 0.00796 | Precision: 0.84314 | Recall: 0.86000 | F1: 0.85149 | Time: 0.117
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/权力的游戏/ckpt-epoch-12.
+

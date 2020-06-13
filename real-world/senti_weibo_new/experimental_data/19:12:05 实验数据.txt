@@ -1,0 +1,53 @@
+19/12/05 实验数据
+
+实验目的：用不同精度分类器测试 “数据调整”
+数据集：权力的游戏
+分类器：senti_weibo
+训练集:从5887条数据中降采样得到的3179条数据
+验证集：500条
+
+epoch选用 1 /2 /4 /9
+INFO:root:Beginning training...
+INFO:root:Epoch: 1 | Loss: 0.03357 | Precision: 0.91053 | Recall: 0.69200 | F1: 0.78636 | Time: 0.741
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-1.
+INFO:root:Epoch: 2 | Loss: 0.02455 | Precision: 0.74110 | Recall: 0.91600 | F1: 0.81932 | Time: 0.734
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-2.
+INFO:root:Epoch: 3 | Loss: 0.01472 | Precision: 0.77211 | Recall: 0.90800 | F1: 0.83456 | Time: 0.738
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-3.
+INFO:root:Epoch: 4 | Loss: 0.00659 | Precision: 0.87225 | Recall: 0.79200 | F1: 0.83019 | Time: 0.728
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-4.
+INFO:root:Epoch: 5 | Loss: 0.00288 | Precision: 0.84400 | Recall: 0.84400 | F1: 0.84400 | Time: 0.737
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-5.
+INFO:root:Epoch: 6 | Loss: 0.00129 | Precision: 0.86975 | Recall: 0.82800 | F1: 0.84836 | Time: 0.742
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-6.
+INFO:root:Epoch: 7 | Loss: 0.00100 | Precision: 0.87879 | Recall: 0.81200 | F1: 0.84407 | Time: 0.736
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-7.
+INFO:root:Epoch: 8 | Loss: 0.00088 | Precision: 0.87773 | Recall: 0.80400 | F1: 0.83925 | Time: 0.735
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-8.
+INFO:root:Epoch: 9 | Loss: 0.00072 | Precision: 0.87879 | Recall: 0.81200 | F1: 0.84407 | Time: 0.736
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-9.
+INFO:root:Epoch: 10 | Loss: 0.00064 | Precision: 0.87879 | Recall: 0.81200 | F1: 0.84407 | Time: 0.736
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-10.
+INFO:root:Epoch: 11 | Loss: 0.00063 | Precision: 0.87879 | Recall: 0.81200 | F1: 0.84407 | Time: 0.737
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-11.
+WARNING:pytorch_pretrained_bert.optimization:Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+WARNING:pytorch_pretrained_bert.optimization:Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+WARNING:pytorch_pretrained_bert.optimization:Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+INFO:root:Epoch: 12 | Loss: 0.00059 | Precision: 0.87879 | Recall: 0.81200 | F1: 0.84407 | Time: 0.734
+INFO:root:Saving checkpoint...
+INFO:root:Checkpoint saved to saved_model/1/ckpt-epoch-12.
+-------------1--------------
+-------------101--------------
+INFO:root:Done!
+

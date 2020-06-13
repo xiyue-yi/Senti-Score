@@ -1,0 +1,3 @@
+epoch-5和epoch-7是较好模型
+
+epoch-10是较差模型
