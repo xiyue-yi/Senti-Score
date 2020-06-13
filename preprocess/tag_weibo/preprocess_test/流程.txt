@@ -1,0 +1,20 @@
+训练数据
+1. 降采样 类别平衡
+downsample
+
+2. 预处理 转化为bert的格式
+proprocess
+
+3. 训练/测试
+main
+
+
+重点在
+测试数据
+filter_copy
+去重、去垃圾信息、
+直接从json格式到preprocess变成dataloader用于分类无关数据
+
+main.py 分类无关数据
+
+compose_new 得到去除无关数据之后的数据

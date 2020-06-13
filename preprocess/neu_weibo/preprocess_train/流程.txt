@@ -1,0 +1,30 @@
+训练数据
+
+1. 最开始 和测试数据一样
+这里和前一个分类不太一样 已经不需要过滤垃圾信息了 只是把tagged、neu数据放在一起 写到一个新的文件里
+filter_copy.py
+
+训练和测试数据的不同之处：
+训练数据一般只存在一个文件里 需要降采样
+测试数据是文件夹里的很多文件
+
+
+2. 降采样 类别平衡
+downsample.py
+
+2. 预处理 转化为bert的格式
+proprocess
+
+3. 训练/测试
+main
+
+
+重点在
+测试数据
+filter_copy
+去重、去垃圾信息、
+直接从json格式到preprocess变成dataloader用于分类无关数据
+
+main.py 分类无关数据
+
+compose_new.py 得到去除无关数据之后的数据
